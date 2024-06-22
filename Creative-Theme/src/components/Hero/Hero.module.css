@@ -1,0 +1,113 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero2 {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.hero2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: rgba(88, 88, 88, 0.253);
+    z-index: 1;
+    mix-blend-mode: color-burn;
+}
+
+.hero__title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero__subtitle {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .prevButton, .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1111;
+}
+
+.prevButton {
+    left: 10px;
+}
+
+.nextButton {
+    right: 10px;
+} */
+
+/* Responsive design */
+@media (max-width: 900px) {
+    .heroTitle {
+        font-size: 2rem;
+    }
+
+    .heroSubtitle {
+        font-size: 1rem;
+    }
+}
