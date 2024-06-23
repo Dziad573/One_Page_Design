@@ -1,0 +1,70 @@
+.container {
+    width: 100%;
+    max-width: 1700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: var(--color-white);
+    flex:1;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;font-size: 5rem;
+}
+.header>h1 {
+    font-size: 3rem;
+    margin: 1rem .3rem;
+}
+.header>h1:nth-child(2) {
+    color: var(--color-red);
+    border-bottom: 1px solid var(--color-red);
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 1rem;
+}
+.title::first-letter {
+    color: var(--color-red);
+}
+.serviceContent{
+    width: 100%;
+
+    padding: 2rem 0;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    min-width: 500px;
+    margin: .5rem;
+    padding: .5rem;
+}
+.service{
+    width: 33%;
+    min-width: 300px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+.service>h2::first-letter {
+    color: var(--color-red);
+}
+.icon{
+    font-size: 40px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #c60c0c3f;
+}
