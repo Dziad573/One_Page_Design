@@ -13,7 +13,7 @@ export const ServiceComponent = () => {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.header}><h1>Our</h1> <h1>Service</h1></div>
+                <div className={styles.serviceHeader}><h1>Our</h1> <h1>Service</h1></div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
                 </p>

@@ -1,0 +1,50 @@
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0 2rem;
+    width: 100%;
+    min-height: 30vh;
+    max-width: var(--max-width);
+}
+.statsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.statsContent{
+    width: 50%;
+    min-width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.statsContentItem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    margin: 1rem 0;
+}
+.statsElement{
+    background-color: var(--color-grey);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: left;
+}
+.statsElementAnimate{
+    text-align: right;
+    background-color: var(--color-red);
+    color: var(--color-white);
+
+}
+.statsImage{
+    width: 50%;
+    max-width: 800px;
+}

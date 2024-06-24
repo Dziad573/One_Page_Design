@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    max-width: 1700px;
+    max-width: var(--max-width);
     display: flex;
     flex-direction: column;
     text-align: center;

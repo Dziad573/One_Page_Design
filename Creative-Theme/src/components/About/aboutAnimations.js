@@ -13,7 +13,8 @@ export function runAnimations() {
                     trigger: element,
                     start: "top 80%",
                     markers: false,
-                    scrub: false
+                    scrub: false,
+                    toggleActions: 'play reverse play reverse',
                 }});
         };
 
@@ -27,7 +28,8 @@ export function runAnimations() {
                         trigger: element,
                         start: "top 80%",
                         markers: false,
-                        scrub: false
+                        scrub: false,
+                        toggleActions: 'play reverse play reverse',
                     }});
             };
             

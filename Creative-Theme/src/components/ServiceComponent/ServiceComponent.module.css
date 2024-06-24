@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    max-width: 1700px;
+    max-width: var(--max-width);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -11,16 +11,16 @@
     background-color: var(--color-white);
     flex:1;
 }
-.header{
+.serviceHeader{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;font-size: 5rem;
 }
-.header>h1 {
+.serviceHeader>h1 {
     font-size: 3rem;
     margin: 1rem .3rem;
 }
-.header>h1:nth-child(2) {
+.serviceHeader>h1:nth-child(2) {
     color: var(--color-red);
     border-bottom: 1px solid var(--color-red);
 }

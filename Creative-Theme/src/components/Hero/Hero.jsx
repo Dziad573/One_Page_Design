@@ -3,7 +3,6 @@ import styles from './Hero.module.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import images from '../../constants/heroContent.js';
-
 export const Hero = () => {
     const settings = {
         dots: true,
