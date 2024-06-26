@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import LazyImage from '../LazyImage/LazyImage.jsx';
+//import LazyImage from '../LazyImage/LazyImage.jsx';
 import { runAnimations } from './aboutAnimations';
 import styles from './About.module.css';
 import devices from '../../assets/Cell-Phone-Applications.jpg';

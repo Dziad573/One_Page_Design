@@ -5,6 +5,7 @@ import { ServiceComponent } from "../ServiceComponent/ServiceComponent";
 import { Stats } from "../Stats/Stats";
 import { Features } from "../Features/Features";
 import { Pricing } from "../Pricing/Pricing";
+import { Team } from "../Team/Team";
 
 import styles from "./Layout.module.css";
 import '../../styles/theme.css';
@@ -19,6 +20,7 @@ export const Layout = ({ children }) => {
             <Stats/>
             <Features/>
             <Pricing/>
+            <Team/>
             {children}
         </div>
     );
