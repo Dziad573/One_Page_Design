@@ -12,7 +12,7 @@ export const TopBar = () => {
 
     return (
         <div className={`${styles.topBar} topBar`}>
-            <h1 className={styles.logo}>DZIADOS</h1>
+            <h1 className={styles.logo}>LOGO</h1>
             <div className={styles.topBarButtons}>
                 {topBarButtons.map((button) => (
                     <button key={button.id} className={`${styles.topBarButton} ${styles.texcik}`}>

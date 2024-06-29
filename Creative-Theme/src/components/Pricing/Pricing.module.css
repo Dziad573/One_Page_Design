@@ -1,0 +1,91 @@
+.container {
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10px;
+    background-color: var(--color-white);
+    flex:1;
+}
+.pricingContainer{
+    position: relative;
+    min-height: 600px;
+}
+.pricingHeader{
+    margin-bottom: 6rem ;
+}
+.pricingHeader>h1 {
+    margin: 1.4rem 0;
+}
+.pricingSection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.pricingItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    margin: 1rem;
+    padding: 0rem;
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.301);
+    background-color: rgb(240, 240, 240);
+}
+.pricingItem h2{
+    display: flex;
+    min-height: 6rem;
+    font-size: 2rem;
+    margin: .5rem;
+    align-items:end;
+
+}
+.priceInfo{
+    position: absolute;
+    top: -4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 1px var(--color-red);
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
+.features{
+    width: 100%;
+    padding: 2rem 0;
+    background-color: var(--color-white);
+}
+li{
+    padding: .5rem;
+}
+.pricingButton{
+    border: 2px solid var(--color-red);
+    background-color: var(--color-white);
+    color: var(--color-red);
+    border-radius: 5px;
+    margin: .7vw;
+    font-size: 1.5rem;
+    width: 20vw;
+    height: 10vw;
+    min-width: 4rem;
+    min-height: 4rem;
+    max-width: 10rem;
+    max-height: 4rem;
+}
+.pricingButton:hover{
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
