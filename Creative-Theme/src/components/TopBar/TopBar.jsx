@@ -16,7 +16,7 @@ export const TopBar = () => {
             <div className={styles.topBarButtons}>
                 {topBarButtons.map((button) => (
                     <button key={button.id} className={`${styles.topBarButton} ${styles.texcik}`}>
-                        <span className={styles.hoverAnim}>{button.name}</span>
+                        <a href={'#'+button.name}><span className={styles.hoverAnim}>{button.name}</span></a>
                     </button>
                 ))}
             </div>

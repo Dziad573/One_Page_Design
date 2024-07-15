@@ -6,7 +6,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     padding: 10px;
     background-color: var(--color-white);
     flex:1;
@@ -46,7 +46,6 @@
     font-size: 2rem;
     margin: .5rem;
     align-items:end;
-
 }
 .priceInfo{
     position: absolute;

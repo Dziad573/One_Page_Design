@@ -31,7 +31,7 @@ export const Hero = () => {
     };
 
     return (
-        <div className={styles.container}>
+        <div id='Home' className={styles.container}>
             <div className={styles.hero}>
                 <Slider {...settings}>
                     {images.map((image, index) => (

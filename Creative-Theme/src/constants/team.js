@@ -1,3 +1,4 @@
+import { FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
 import img1 from '../assets/team/img11.webp';
 import img2 from '../assets/team/img22.webp';
 import img3 from '../assets/team/img33.webp';
@@ -10,6 +11,9 @@ const team = [
         title: 'CEO',
         image: img1,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        ig: FaInstagram,
+        fb: FaFacebook,
+        tw: FaTwitter,
     },
     {
         id: 2,
@@ -17,6 +21,9 @@ const team = [
         title: 'CEO',
         image: img2,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        ig: FaInstagram,
+        fb: FaFacebook,
+        tw: FaTwitter,
     },
     {
         id: 3,
@@ -24,6 +31,9 @@ const team = [
         title: 'CEO',
         image: img3,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        ig: FaInstagram,
+        fb: FaFacebook,
+        tw: FaTwitter,
     },
     {
         id: 4,
@@ -31,6 +41,9 @@ const team = [
         title: 'CEO',
         image: img4,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        ig: FaInstagram,
+        fb: FaFacebook,
+        tw: FaTwitter,
     },
 
 ];

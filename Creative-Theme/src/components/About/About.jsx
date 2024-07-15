@@ -12,7 +12,7 @@ export const About = () => {
 
     return (
         <>
-            <div className={styles.container}>
+            <div id='About' className={styles.container}>
                 <div className={styles.header}><h1>About</h1> <h1>Us</h1></div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.

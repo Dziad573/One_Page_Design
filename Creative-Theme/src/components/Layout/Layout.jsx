@@ -6,11 +6,12 @@ import { Stats } from "../Stats/Stats";
 import { Features } from "../Features/Features";
 import { Pricing } from "../Pricing/Pricing";
 import { Team } from "../Team/Team";
+import { Blog } from "../Blog/Blog";
 
 import styles from "./Layout.module.css";
 import '../../styles/theme.css';
 
-export const Layout = ({ children }) => {
+export const Layout = (/*{ children }*/) => {
     return (
         <div className={styles.mainContent}>
             <TopBar/>
@@ -21,7 +22,8 @@ export const Layout = ({ children }) => {
             <Features/>
             <Pricing/>
             <Team/>
-            {children}
+            <Blog/>
+            {/* {children} */}
         </div>
     );
 }

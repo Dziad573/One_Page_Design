@@ -5,7 +5,7 @@ export const useShowImage = () => {
 
     useEffect(() => {
         const handleResize = () => {
-            setShowImg(window.innerWidth > 768);
+            setShowImg(window.innerWidth > 1028);
         };
 
         window.addEventListener('resize', handleResize);

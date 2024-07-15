@@ -10,12 +10,12 @@ export const Team = () => {
     }, []);
 
     return (
-        <div className={styles.container}>
+        <div id='Team' className={styles.container}>
             <div className={styles.header}>
                 <h1>Team</h1>
-                <span className={styles.description}>
+                <p className={styles.description}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </span>
+                </p>
             </div>
             <div className={`${styles.teamContainer} teamElementAnimate`}>
                 {team.map((member) => (
@@ -25,6 +25,17 @@ export const Team = () => {
                             <h3>{member.name}</h3>
                             <h4>{member.title}</h4>
                             <p>{member.description}</p>
+                            <div className={styles.socials}>
+                                <a href='https://www.instagram.com/' target='_blank' rel='noreferrer'>
+                                    <member.ig />
+                                </a>
+                                <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'>
+                                    <member.fb />
+                                </a>
+                                <a href="https://www.twitter.com/" target='_blank' rel='noreferrer'>
+                                    <member.tw />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 ))}

@@ -11,6 +11,8 @@
     margin-bottom: 20px;
 }
 .description {
+    padding: 1rem;
+    font-size: 1.2rem;
 }
 .teamContainer {
     display: flex;
@@ -35,4 +37,12 @@
 .memberImage {
     max-width: 300px;
     max-height: 400px;
+}
+.socials{
+    margin: .6rem 0;
+}
+.socials a {
+    font-size: 36px;
+    padding: 5px;
+    margin: 2px 5px;
 }
