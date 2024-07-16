@@ -5,6 +5,7 @@
     justify-content: space-between;
     width: 100%;
     height: 6vh;
+    min-height: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -37,7 +38,7 @@
     color: var(--color-white);
 }
 
-.topBarButton:hover a{
+a .topBarButton:hover{
     color: var(--color-red);
 }
 .logo{
@@ -70,4 +71,31 @@
 .topBarButton:hover .hoverAnim::before{
     transform: scaleX(1);
 }
+.topBar svg{
+    scale: 1.4;
+    color: var(--color-white);
+    cursor: pointer;
+    margin: 0 1rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.801);
+}
 
+.menu .closeButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    scale: 1.4;
+    color: var(--color-white);
+    cursor: pointer;
+    margin: 2vh 1.5rem;
+}

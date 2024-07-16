@@ -19,8 +19,8 @@ export const Layout = (/*{ children }*/) => {
             <About/>
             <ServiceComponent/>
             <Stats/>
-            <Features/>
             <Pricing/>
+            <Features/>
             <Team/>
             <Blog/>
             {/* {children} */}

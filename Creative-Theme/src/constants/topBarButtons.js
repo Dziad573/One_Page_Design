@@ -22,28 +22,22 @@ export const topBarButtons = [
     },
     {
         id: 5,
-        name: 'Portfolio',
-        link: '/portfolio'
-
-    },
-    {
-        id: 6,
         name: 'Pricing',
         link: '/pricing'
 
     },
     {
-        id: 7,
+        id: 6,
         name: 'Team',
         link: '/team'
     },
     {
-        id: 8,
+        id: 7,
         name: 'Blog',
         link: '/blog'
     },
     {
-        id: 9,
+        id: 8,
         name: 'Contact',
         link: '/contact'
     },

@@ -11,7 +11,7 @@ export const Pricing = () => {
     return (
         <div id='Pricing' className={styles.container}>
             <div className={styles.pricingHeader}>
-                <h1>Pricing</h1>
+                <div className={styles.header}><h1>Pricin</h1><h1>g</h1></div>
                 <p>Some pricing information. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem corrupti, fugit molestias omnis consectetur atque, asperiores unde qui vero explicabo vitae doloribus, ullam dignissimos commodi sunt ipsam esse? Cumque, minus.</p>
             </div>
             <div className={`${styles.pricingSection} pricingSection`}>

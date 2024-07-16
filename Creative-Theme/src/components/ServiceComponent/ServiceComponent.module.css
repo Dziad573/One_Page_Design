@@ -14,7 +14,8 @@
 .serviceHeader{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;font-size: 5rem;
+    flex-wrap: nowrap;
+    font-size: 5rem;
 }
 .serviceHeader>h1 {
     font-size: 3rem;

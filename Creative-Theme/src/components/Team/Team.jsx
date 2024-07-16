@@ -11,8 +11,8 @@ export const Team = () => {
 
     return (
         <div id='Team' className={styles.container}>
-            <div className={styles.header}>
-                <h1>Team</h1>
+            <div className={styles.headerTeam}>
+            <div className={styles.header}><h1>Tea</h1><h1>m</h1></div>
                 <p className={styles.description}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>

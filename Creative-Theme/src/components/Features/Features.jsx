@@ -20,7 +20,7 @@ export const Features = () => {
 
     return (
         <div id='Features' className={styles.features}>
-            <h1>Features</h1>
+            <div className={styles.header}><h1>Feature</h1><h1>s</h1></div>
             <p>Some features of the productSome features of the productSome features of the productSome features of the product</p>
             <div className={styles.container}>
                 <div className={styles.buttonsContainer}>

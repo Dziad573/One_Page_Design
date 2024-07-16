@@ -28,6 +28,15 @@
 .imageContainer{
     position: relative;
 }
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.header>h1:nth-child(2){
+    color: var(--color-red);
+    border-bottom: 1px solid var(--color-red);
+    margin: 0 .5rem;
+}
 img{
     width: 100%;
     height: auto;
@@ -48,8 +57,15 @@ img{
     background-color: rgba(0, 0, 0, 0.425);
 }
 .stats{
+    display: flex;
+    align-items: center;
     width: 100%;
     padding: 1rem 0;
+}
+.stats span{
+    margin-left: .3rem;
+    margin-right: 1rem;
+
 }
 .content{
     display: flex;
