@@ -1,0 +1,117 @@
+.contactContainer{
+    max-width: var(--max-width);
+    margin-top: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contactItems{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.header>h1:nth-child(2){
+    color: var(--color-red);
+    border-bottom: 1px solid var(--color-red);
+    margin: 0 .5rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center;
+    width: 35%;
+    min-width: 40rem;
+    padding: 4rem;
+}
+.info>h2, .info>p{
+    margin: .7rem 0;
+}
+.info>p{
+    display: flex;
+    align-items: center;
+}
+.info>p>svg{
+    margin-right: 1rem;
+}
+.form{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 4rem;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 100%;
+    font-size: 1.2rem;
+    color: var(--color-black);
+    min-width: 20rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-grey);
+}
+.formName{
+    width: 100%;
+    min-width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.formName > input{
+    width: 48%;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    font-size: 1.2rem;
+    color: var(--color-black);
+    min-width: 20rem;
+    min-height: 10rem;
+    
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-grey);
+}
+
+.contactButton{
+    border: 2px solid var(--color-red);
+    background-color: var(--color-white);
+    color: var(--color-red);
+    border-radius: 5px;
+    margin: .7vw;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    /* min-width: 4rem;
+    min-height: 4rem;
+    max-width: 10rem;
+    max-height: 4rem; */
+}
+.contactButton:hover{
+    background-color: var(--color-red);
+    color: var(--color-white);
+}

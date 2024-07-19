@@ -17,6 +17,16 @@ export const TopBar = () => {
         setIsMenuOpen(false);
     };
 
+    const scrollToSection = (id, offset = 0) => {
+        const element = document.getElementById(id);
+        if (element) {
+            window.scrollTo({
+                top: element.offsetTop - offset,
+                behavior: 'smooth'
+            });
+        }
+    };
+
     useEffect(() => {
         runAnimations();
     }, []);
@@ -28,7 +38,7 @@ export const TopBar = () => {
                 <div className={styles.topBarButtons}>
                     {topBarButtons.map((button) => (
                         <>
-                            <a href={'#' + button.name}>
+                            <a onClick={() => scrollToSection(button.name, 200)}>
                                 <button key={button.id} className={`${styles.topBarButton} ${styles.texcik}`}>
                                     <span className={styles.hoverAnim}>{button.name}</span>
                                 </button>
@@ -64,8 +74,11 @@ export const TopBar = () => {
                                 <path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/>
                             </svg>
                             {topBarButtons.map((button) => (<>
-                                    <a href={'#' + button.name}>
-                                        <button key={button.id} onClick={handleButtonClick} className={`${styles.topBarButton} ${styles.texcik}`}>
+                                    <a onClick={() => {
+                                        scrollToSection(button.name, 200);
+                                        handleButtonClick();
+                                    }}>
+                                        <button key={button.id} className={`${styles.topBarButton} ${styles.texcik}`}>
                                             <span className={styles.hoverAnim}>{button.name}</span>
                                         </button>
                                     </a>

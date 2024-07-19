@@ -7,6 +7,7 @@ import { Features } from "../Features/Features";
 import { Pricing } from "../Pricing/Pricing";
 import { Team } from "../Team/Team";
 import { Blog } from "../Blog/Blog";
+import { Contact } from "../Contact/Contact";
 
 import styles from "./Layout.module.css";
 import '../../styles/theme.css';
@@ -23,6 +24,7 @@ export const Layout = (/*{ children }*/) => {
             <Features/>
             <Team/>
             <Blog/>
+            <Contact/>
             {/* {children} */}
         </div>
     );
