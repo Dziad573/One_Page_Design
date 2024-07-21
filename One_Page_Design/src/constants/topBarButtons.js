@@ -17,13 +17,13 @@ export const topBarButtons = [
     },
     {
         id: 4,
-        name: 'Features',
-        link: '/features'
+        name: 'Pricing',
+        link: '/pricing'
     },
     {
         id: 5,
-        name: 'Pricing',
-        link: '/pricing'
+        name: 'Features',
+        link: '/features'
 
     },
     {
