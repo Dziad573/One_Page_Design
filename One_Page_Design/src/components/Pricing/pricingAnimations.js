@@ -18,7 +18,7 @@ export function runAnimations() {
                     ease: "easeInOut",
                     scrollTrigger: {
                         trigger: element,
-                        start: "top 60%",
+                        start: "top 80%",
                         //markers: true,
                         scrub: false,
                         //toggleActions: 'play reverse play reverse',

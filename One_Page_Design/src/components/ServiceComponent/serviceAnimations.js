@@ -15,7 +15,7 @@ export function runAnimations() {
                     start: "top 90%",
                     //markers: true,
                     scrub: false,
-                    toggleActions: 'play reverse play reverse',
+                    //toggleActions: 'play reverse play reverse',
                 }});
             });
         };

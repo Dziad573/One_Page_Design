@@ -14,7 +14,8 @@
 .header{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;font-size: 5rem;
+    flex-wrap: nowrap;
+    font-size: 5rem;
 }
 .header>h1 {
     font-size: 3rem;
@@ -63,6 +64,7 @@ p {
     color: var(--color-white);
     background-color: var(--color-red);
     width: 100%;
+    min-width: 500px;
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;

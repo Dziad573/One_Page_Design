@@ -69,3 +69,18 @@ p {
     border-radius: 50%;
     background-color: #c60c0c3f;
 }
+@media (max-width: 500px) {
+    .content {
+        margin-left: -1rem;
+    }
+}
+@media (max-width: 450px) {
+    .content {
+        margin-left: -2rem;
+    }
+}
+@media (max-width: 400px) {
+    .content {
+        margin-left: -5rem;
+    }
+}

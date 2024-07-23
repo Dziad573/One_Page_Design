@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { runAnimations } from './statsAnimations.js';
 import { useShowImage } from '../../hooks/useShowImage.js';
-import LazyImage from '../LazyImage/LazyImage.jsx';
+//import LazyImage from '../LazyImage/LazyImage.jsx';
 import stats from '../../constants/stats';
 import styles from './Stats.module.css';
 import portrait from '../../assets/business-man2.png';

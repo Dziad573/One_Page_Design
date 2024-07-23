@@ -1,5 +1,6 @@
 body{
     --max-width: 1700px;
+    min-width: 360px;
     --font-size-default: 20px;
     --font-family-default: Helvetica, Arial, sans-serif;
     --color-black: #000000;

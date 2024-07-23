@@ -1,5 +1,7 @@
 .container {
     position: relative;
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -109,5 +111,60 @@
 
     .heroSubtitle {
         font-size: 1rem;
+    }
+}
+@media (max-width: 600px) {
+    .heroTitle {
+        font-size: 1.5rem;
+    }
+
+    .heroSubtitle {
+        font-size: .8rem;
+    }
+    
+}
+@media (max-width: 700px) {
+    .hero {
+        width: 105%;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 650px) {
+    .hero {
+        width: 115%;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 550px) {
+    .hero {
+        width: 138%;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px) {
+    .hero {
+        width: 166%;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 400px) {
+    .hero {
+        width: 196%;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
     }
 }

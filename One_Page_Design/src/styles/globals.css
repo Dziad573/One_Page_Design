@@ -1,5 +1,7 @@
 html{
     scroll-behavior: smooth;
+    min-width: 300px;
+    background-color: white;
 }
 *{
     box-sizing: border-box;
@@ -38,12 +40,22 @@ body{
     color: var(--color-text-default);
     background-color: var(--color-black);
 }
+
 #root{
     width: 100%;
-    min-width: 560px;
+    min-width: 300px;
     min-height: 100vh;
     background-color: rgb(51, 51, 51);
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* flex: 1; */
 }
+/* #root>div{
+    width: 100%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+} */

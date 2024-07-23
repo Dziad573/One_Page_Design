@@ -17,7 +17,7 @@ export function runAnimations() {
                     ease: "easeInOut", 
                     scrollTrigger: {
                         trigger: triggerElement,
-                        start: 'top 20%',
+                        start: 'top 0%',
                         //markers: true,
                         scrub: false,
                         toggleActions: 'play play play reverse',

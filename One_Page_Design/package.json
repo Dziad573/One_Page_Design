@@ -1,16 +1,16 @@
 {
+  "homepage": "https://dziad573.github.io/One_Page_Design",
   "name": "creative-theme",
-  "homepage": "https://dziad573.github.io/One_Page_Design/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@iconify-icons/ic": "^1.2.13",

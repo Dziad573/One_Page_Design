@@ -1,7 +1,7 @@
 .features{
     width: 100%;
     max-width: var(--max-width);
-    margin-top: 2rem;
+    margin-top: 5rem;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -89,4 +89,9 @@ p{
     width: 50%;
     max-width: 400px;
     max-height: 600px;
+}
+@media (max-width: 500px) {
+    .features {
+        margin-top: 10rem;
+    }
 }
